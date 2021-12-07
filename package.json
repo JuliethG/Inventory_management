@@ -10,6 +10,10 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@coreui/chartjs": "^2.0.0",
+        "@coreui/coreui": "^3.4.0",
+        "@coreui/icons": "^1.0.1",
+        "@coreui/utils": "^1.2.4",
         "@tailwindcss/forms": "^0.3.1",
         "@tailwindcss/typography": "^0.4.0",
         "alpinejs": "^3.0.6",
@@ -19,5 +23,8 @@
         "postcss": "^8.1.14",
         "postcss-import": "^14.0.1",
         "tailwindcss": "^2.2.2"
+    },
+    "dependencies": {
+        "coreui": "^0.4.2-alpha2"
     }
 }

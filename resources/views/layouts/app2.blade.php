@@ -110,6 +110,7 @@
 </div>
 {{--este es el aside de la parte derecha, normalmente oculto y se encarga de algunas notificaciones--}}
 <div class="sidebar sidebar-light sidebar-lg sidebar-end sidebar-overlaid sidebar-self-hiding-xxl" id="aside">
+{{--    botones de encabezado--}}
     <div class="sidebar-header bg-transparent p-0">
         <ul class="nav nav-underline nav-underline-primary" role="tablist">
             <li class="nav-item"><a class="nav-link active" data-coreui-toggle="tab" href="#timeline" role="tab">
@@ -134,8 +135,9 @@
             </svg>
         </button>
     </div>
-
+{{--division de el contenido del aside en tres partes para cada boton--}}
     <div class="tab-content">
+{{--        primera vista aside--}}
         <div class="tab-pane active" id="timeline" role="tabpanel">
             <div class="list-group list-group-flush">
                 <div
@@ -240,6 +242,7 @@
                 </div>
             </div>
         </div>
+{{--        segunda vista aside--}}
         <div class="tab-pane p-3" id="messages" role="tabpanel">
             <div class="message">
                 <div class="py-3 pb-5 me-3 float-start">
@@ -301,6 +304,7 @@
                     eiusmod tempor incididunt...</small>
             </div>
         </div>
+{{--        tercera vista aside--}}
         <div class="tab-pane p-3" id="settings" role="tabpanel">
             <h6>Settings</h6>
             <div class="aside-options">
@@ -653,7 +657,9 @@
                 </svg>
             </button>
         </div>
+{{--        divisor del encabezado--}}
         <div class="header-divider"></div>
+{{--        informacion de la ubicacion actual--}}
         <div class="container-fluid">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb my-0 ms-2">
@@ -665,6 +671,7 @@
             </nav>
         </div>
     </header>
+{{--    contenido de la pagina--}}
     <div class="body flex-grow-1 px-3">
         <div class="container-lg">
             <div class="row">
@@ -1581,6 +1588,7 @@
 
         </div>
     </div>
+{{--    pie de pagina--}}
     <footer class="footer">
         <div><a href="https://coreui.io">CoreUI</a> © 2021 creativeLabs.</div>
         <div class="ms-auto">Powered by&nbsp;<a href="https://coreui.io/pro/">CoreUI PRO</a></div>
