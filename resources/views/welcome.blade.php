@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 
@@ -39,6 +38,7 @@
         function gtag() {
             dataLayer.push(arguments);
         }
+
         gtag('js', new Date());
         gtag('config', 'UA-118965717-1');
     </script>
@@ -58,58 +58,84 @@
         <li class="nav-item"><a class="nav-link" href="index.html">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
-                </svg> Dashboard<span class="badge bg-info-gradient ms-auto">NEW</span></a></li>
+                </svg>
+                Dashboard<span class="badge bg-info-gradient ms-auto">NEW</span></a></li>
         <li class="nav-title">Theme</li>
         <li class="nav-item"><a class="nav-link" href="colors.html">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-drop"></use>
-                </svg> Colors</a></li>
+                </svg>
+                Colors</a></li>
         <li class="nav-item"><a class="nav-link" href="typography.html">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-pencil"></use>
-                </svg> Typography</a></li>
+                </svg>
+                Typography</a></li>
         <li class="nav-title">Components</li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-puzzle"></use>
-                </svg> Base</a>
+                </svg>
+                Base</a>
             <ul class="nav-group-items">
-                <li class="nav-item"><a class="nav-link" href="base/accordion.html"><span class="nav-icon"></span> Accordion</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/breadcrumb.html"><span class="nav-icon"></span> Breadcrumb</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/cards.html"><span class="nav-icon"></span> Cards</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/carousel.html"><span class="nav-icon"></span> Carousel</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/collapse.html"><span class="nav-icon"></span> Collapse</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/list-group.html"><span class="nav-icon"></span> List group</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/navs.html"><span class="nav-icon"></span> Navs</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/pagination.html"><span class="nav-icon"></span> Pagination</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/popovers.html"><span class="nav-icon"></span> Popovers</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/progress.html"><span class="nav-icon"></span> Progress</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/scrollspy.html"><span class="nav-icon"></span> Scrollspy</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/spinners.html"><span class="nav-icon"></span> Spinners</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/tables.html"><span class="nav-icon"></span> Tables</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/tabs.html"><span class="nav-icon"></span> Tabs</a></li>
-                <li class="nav-item"><a class="nav-link" href="base/tooltips.html"><span class="nav-icon"></span> Tooltips</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/accordion.html"><span class="nav-icon"></span>
+                        Accordion</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/breadcrumb.html"><span class="nav-icon"></span>
+                        Breadcrumb</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/cards.html"><span class="nav-icon"></span> Cards</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="base/carousel.html"><span class="nav-icon"></span>
+                        Carousel</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/collapse.html"><span class="nav-icon"></span>
+                        Collapse</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/list-group.html"><span class="nav-icon"></span> List
+                        group</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/navs.html"><span class="nav-icon"></span> Navs</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="base/pagination.html"><span class="nav-icon"></span>
+                        Pagination</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/popovers.html"><span class="nav-icon"></span>
+                        Popovers</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/progress.html"><span class="nav-icon"></span>
+                        Progress</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/scrollspy.html"><span class="nav-icon"></span>
+                        Scrollspy</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/spinners.html"><span class="nav-icon"></span>
+                        Spinners</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/tables.html"><span class="nav-icon"></span>
+                        Tables</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/tabs.html"><span class="nav-icon"></span> Tabs</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="base/tooltips.html"><span class="nav-icon"></span>
+                        Tooltips</a></li>
             </ul>
         </li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-cursor"></use>
-                </svg> Buttons</a>
+                </svg>
+                Buttons</a>
             <ul class="nav-group-items">
-                <li class="nav-item"><a class="nav-link" href="buttons/buttons.html"><span class="nav-icon"></span> Buttons</a></li>
-                <li class="nav-item"><a class="nav-link" href="buttons/button-group.html"><span class="nav-icon"></span> Buttons Group</a></li>
-                <li class="nav-item"><a class="nav-link" href="buttons/loading-buttons.html"> Loading Buttons<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="buttons/dropdowns.html"><span class="nav-icon"></span> Dropdowns</a></li>
+                <li class="nav-item"><a class="nav-link" href="buttons/buttons.html"><span class="nav-icon"></span>
+                        Buttons</a></li>
+                <li class="nav-item"><a class="nav-link" href="buttons/button-group.html"><span class="nav-icon"></span>
+                        Buttons Group</a></li>
+                <li class="nav-item"><a class="nav-link" href="buttons/loading-buttons.html"> Loading Buttons<span
+                            class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="buttons/dropdowns.html"><span class="nav-icon"></span>
+                        Dropdowns</a></li>
             </ul>
         </li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-notes"></use>
-                </svg> Forms</a>
+                </svg>
+                Forms</a>
             <ul class="nav-group-items">
                 <li class="nav-item"><a class="nav-link" href="forms/form-control.html"> Form Control</a></li>
                 <li class="nav-item"><a class="nav-link" href="forms/select.html"> Select</a></li>
-                <li class="nav-item"><a class="nav-link" href="forms/multi-select.html"><span class="nav-icon"></span> Multi Select<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="forms/multi-select.html"><span class="nav-icon"></span>
+                        Multi Select<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
                 <li class="nav-item"><a class="nav-link" href="forms/checks-radios.html"> Checks and radios</a></li>
                 <li class="nav-item"><a class="nav-link" href="forms/range.html"> Range</a></li>
                 <li class="nav-item"><a class="nav-link" href="forms/input-group.html"> Input group</a></li>
@@ -121,91 +147,117 @@
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-star"></use>
-                </svg> Icons</a>
+                </svg>
+                Icons</a>
             <ul class="nav-group-items">
-                <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-free.html"> CoreUI Icons<span class="badge badge-sm bg-success ms-auto">Free</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-brand.html"> CoreUI Icons - Brand</a></li>
-                <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-flag.html"> CoreUI Icons - Flag</a></li>
+                <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-free.html"> CoreUI Icons<span
+                            class="badge badge-sm bg-success ms-auto">Free</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-brand.html"> CoreUI Icons - Brand</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-flag.html"> CoreUI Icons - Flag</a>
+                </li>
             </ul>
         </li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
-                </svg> Notifications</a>
+                </svg>
+                Notifications</a>
             <ul class="nav-group-items">
-                <li class="nav-item"><a class="nav-link" href="notifications/alerts.html"><span class="nav-icon"></span> Alerts</a></li>
-                <li class="nav-item"><a class="nav-link" href="notifications/badge.html"><span class="nav-icon"></span> Badge</a></li>
-                <li class="nav-item"><a class="nav-link" href="notifications/modals.html"><span class="nav-icon"></span> Modals</a></li>
-                <li class="nav-item"><a class="nav-link" href="notifications/toasts.html"><span class="nav-icon"></span> Toasts</a></li>
+                <li class="nav-item"><a class="nav-link" href="notifications/alerts.html"><span class="nav-icon"></span>
+                        Alerts</a></li>
+                <li class="nav-item"><a class="nav-link" href="notifications/badge.html"><span class="nav-icon"></span>
+                        Badge</a></li>
+                <li class="nav-item"><a class="nav-link" href="notifications/modals.html"><span class="nav-icon"></span>
+                        Modals</a></li>
+                <li class="nav-item"><a class="nav-link" href="notifications/toasts.html"><span class="nav-icon"></span>
+                        Toasts</a></li>
             </ul>
         </li>
         <li class="nav-item"><a class="nav-link" href="widgets.html">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-calculator"></use>
-                </svg> Widgets<span class="badge bg-info-gradient ms-auto">NEW</span></a></li>
+                </svg>
+                Widgets<span class="badge bg-info-gradient ms-auto">NEW</span></a></li>
         <li class="nav-divider"></li>
         <li class="nav-title">Plugins</li>
         <li class="nav-item"><a class="nav-link" href="calendar.html">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-calendar"></use>
-                </svg> Calendar<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
+                </svg>
+                Calendar<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
         <li class="nav-item"><a class="nav-link" href="charts.html">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-chart-pie"></use>
-                </svg> Charts</a></li>
+                </svg>
+                Charts</a></li>
         <li class="nav-item"><a class="nav-link" href="datatables.html">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-spreadsheet"></use>
-                </svg> DataTables<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
+                </svg>
+                DataTables<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
         <li class="nav-item"><a class="nav-link" href="google-maps.html">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-map"></use>
-                </svg> Google Maps<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
+                </svg>
+                Google Maps<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
         <li class="nav-title">Extras</li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-star"></use>
-                </svg> Pages</a>
+                </svg>
+                Pages</a>
             <ul class="nav-group-items">
                 <li class="nav-item"><a class="nav-link" href="login.html" target="_top">
                         <svg class="nav-icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
-                        </svg> Login</a></li>
+                        </svg>
+                        Login</a></li>
                 <li class="nav-item"><a class="nav-link" href="register.html" target="_top">
                         <svg class="nav-icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
-                        </svg> Register</a></li>
+                        </svg>
+                        Register</a></li>
                 <li class="nav-item"><a class="nav-link" href="404.html" target="_top">
                         <svg class="nav-icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bug"></use>
-                        </svg> Error 404</a></li>
+                        </svg>
+                        Error 404</a></li>
                 <li class="nav-item"><a class="nav-link" href="500.html" target="_top">
                         <svg class="nav-icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bug"></use>
-                        </svg> Error 500</a></li>
+                        </svg>
+                        Error 500</a></li>
             </ul>
         </li>
         <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-layers"></use>
-                </svg> Apps</a>
+                </svg>
+                Apps</a>
             <ul class="nav-group-items">
                 <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                         <svg class="nav-icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-description"></use>
-                        </svg> Invoicing</a>
+                        </svg>
+                        Invoicing</a>
                     <ul class="nav-group-items">
-                        <li class="nav-item"><a class="nav-link" href="apps/invoicing/invoice.html"> Invoice<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="apps/invoicing/invoice.html"> Invoice<span
+                                    class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
                     </ul>
                 </li>
                 <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
                         <svg class="nav-icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-envelope-open"></use>
-                        </svg> Email</a>
+                        </svg>
+                        Email</a>
                     <ul class="nav-group-items">
-                        <li class="nav-item"><a class="nav-link" href="apps/email/inbox.html"> Inbox<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="apps/email/message.html"> Message<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="apps/email/compose.html"> Compose<span class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="apps/email/inbox.html"> Inbox<span
+                                    class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="apps/email/message.html"> Message<span
+                                    class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="apps/email/compose.html"> Compose<span
+                                    class="badge bg-danger-gradient ms-auto">PRO</span></a></li>
                     </ul>
                 </li>
             </ul>
@@ -213,25 +265,32 @@
         <li class="nav-item mt-auto"><a class="nav-link" href="docs.html">
                 <svg class="nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-description"></use>
-                </svg> Docs</a></li>
+                </svg>
+                Docs</a></li>
         <li class="nav-title">System Utilization</li>
         <li class="nav-item px-3 d-narrow-none">
             <div class="text-uppercase mb-1"><small><b>CPU Usage</b></small></div>
             <div class="progress progress-thin">
-                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div><small class="text-medium-emphasis-inverse">348 Processes. 1/4 Cores.</small>
+                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 25%" aria-valuenow="25"
+                     aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <small class="text-medium-emphasis-inverse">348 Processes. 1/4 Cores.</small>
         </li>
         <li class="nav-item px-3 d-narrow-none">
             <div class="text-uppercase mb-1"><small><b>Memory Usage</b></small></div>
             <div class="progress progress-thin">
-                <div class="progress-bar bg-warning-gradient" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div><small class="text-medium-emphasis-inverse">11444GB/16384MB</small>
+                <div class="progress-bar bg-warning-gradient" role="progressbar" style="width: 70%" aria-valuenow="70"
+                     aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <small class="text-medium-emphasis-inverse">11444GB/16384MB</small>
         </li>
         <li class="nav-item px-3 mb-3 d-narrow-none">
             <div class="text-uppercase mb-1"><small><b>SSD 1 Usage</b></small></div>
             <div class="progress progress-thin">
-                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-            </div><small class="text-medium-emphasis-inverse">243GB/256GB</small>
+                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 95%" aria-valuenow="95"
+                     aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <small class="text-medium-emphasis-inverse">243GB/256GB</small>
         </li>
     </ul>
     <button class="sidebar-toggler" type="button" data-coreui-toggle="unfoldable"></button>
@@ -242,15 +301,18 @@
             <li class="nav-item"><a class="nav-link active" data-coreui-toggle="tab" href="#timeline" role="tab">
                     <svg class="icon">
                         <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-list"></use>
-                    </svg></a></li>
+                    </svg>
+                </a></li>
             <li class="nav-item"><a class="nav-link" data-coreui-toggle="tab" href="#messages" role="tab">
                     <svg class="icon">
                         <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speech"></use>
-                    </svg></a></li>
+                    </svg>
+                </a></li>
             <li class="nav-item"><a class="nav-link" data-coreui-toggle="tab" href="#settings" role="tab">
                     <svg class="icon">
                         <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-settings"></use>
-                    </svg></a></li>
+                    </svg>
+                </a></li>
         </ul>
         <button class="sidebar-close" type="button" data-coreui-close="sidebar">
             <svg class="icon">
@@ -262,69 +324,104 @@
     <div class="tab-content">
         <div class="tab-pane active" id="timeline" role="tabpanel">
             <div class="list-group list-group-flush">
-                <div class="list-group-item border-start-4 border-start-secondary bg-light text-center fw-bold text-medium-emphasis text-uppercase small">Today</div>
+                <div
+                    class="list-group-item border-start-4 border-start-secondary bg-light text-center fw-bold text-medium-emphasis text-uppercase small">
+                    Today
+                </div>
                 <div class="list-group-item border-start-4 border-start-warning list-group-item-divider">
-                    <div class="avatar avatar-lg float-end"><img class="avatar-img" src="assets/img/avatars/7.jpg" alt="user@email.com"></div>
-                    <div>Meeting with <strong>Lucas</strong></div><small class="text-medium-emphasis me-3">
+                    <div class="avatar avatar-lg float-end"><img class="avatar-img" src="assets/img/avatars/7.jpg"
+                                                                 alt="user@email.com"></div>
+                    <div>Meeting with <strong>Lucas</strong></div>
+                    <small class="text-medium-emphasis me-3">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-calendar"></use>
-                        </svg> 1 - 3pm</small><small class="text-medium-emphasis">
+                        </svg>
+                        1 - 3pm</small><small class="text-medium-emphasis">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-location-pin"></use>
-                        </svg> Palo Alto, CA</small>
+                        </svg>
+                        Palo Alto, CA</small>
                 </div>
                 <div class="list-group-item border-start-4 border-start-info">
-                    <div class="avatar avatar-lg float-end"><img class="avatar-img" src="assets/img/avatars/4.jpg" alt="user@email.com"></div>
-                    <div>Skype with <strong>Megan</strong></div><small class="text-medium-emphasis me-3">
+                    <div class="avatar avatar-lg float-end"><img class="avatar-img" src="assets/img/avatars/4.jpg"
+                                                                 alt="user@email.com"></div>
+                    <div>Skype with <strong>Megan</strong></div>
+                    <small class="text-medium-emphasis me-3">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-calendar"></use>
-                        </svg> 4 - 5pm</small><small class="text-medium-emphasis">
+                        </svg>
+                        4 - 5pm</small><small class="text-medium-emphasis">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-skype"></use>
-                        </svg> On-line</small>
+                        </svg>
+                        On-line</small>
                 </div>
-                <div class="list-group-item border-start-4 border-start-secondary bg-light text-center fw-bold text-medium-emphasis text-uppercase small">Tomorrow</div>
+                <div
+                    class="list-group-item border-start-4 border-start-secondary bg-light text-center fw-bold text-medium-emphasis text-uppercase small">
+                    Tomorrow
+                </div>
                 <div class="list-group-item border-start-4 border-start-danger list-group-item-divider">
-                    <div>New UI Project - <strong>deadline</strong></div><small class="text-medium-emphasis me-3">
+                    <div>New UI Project - <strong>deadline</strong></div>
+                    <small class="text-medium-emphasis me-3">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-calendar"></use>
-                        </svg> 10 - 11pm</small><small class="text-medium-emphasis">
+                        </svg>
+                        10 - 11pm</small><small class="text-medium-emphasis">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-home"></use>
-                        </svg> creativeLabs HQ</small>
+                        </svg>
+                        creativeLabs HQ</small>
                     <div class="avatars-stack mt-2">
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/2.jpg" alt="user@email.com"></div>
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/3.jpg" alt="user@email.com"></div>
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/4.jpg" alt="user@email.com"></div>
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/5.jpg" alt="user@email.com"></div>
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/6.jpg" alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/2.jpg"
+                                                           alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/3.jpg"
+                                                           alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/4.jpg"
+                                                           alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/5.jpg"
+                                                           alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/6.jpg"
+                                                           alt="user@email.com"></div>
                     </div>
                 </div>
                 <div class="list-group-item border-start-4 border-start-success list-group-item-divider">
-                    <div><strong>#10 Startups.Garden</strong> Meetup</div><small class="text-medium-emphasis me-3">
+                    <div><strong>#10 Startups.Garden</strong> Meetup</div>
+                    <small class="text-medium-emphasis me-3">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-calendar"></use>
-                        </svg> 1 - 3pm</small><small class="text-medium-emphasis">
+                        </svg>
+                        1 - 3pm</small><small class="text-medium-emphasis">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-location-pin"></use>
-                        </svg> Palo Alto, CA</small>
+                        </svg>
+                        Palo Alto, CA</small>
                 </div>
                 <div class="list-group-item border-start-4 border-start-primary list-group-item-divider">
-                    <div><strong>Team meeting</strong></div><small class="text-medium-emphasis me-3">
+                    <div><strong>Team meeting</strong></div>
+                    <small class="text-medium-emphasis me-3">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-calendar"></use>
-                        </svg> 4 - 6pm</small><small class="text-medium-emphasis">
+                        </svg>
+                        4 - 6pm</small><small class="text-medium-emphasis">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-home"></use>
-                        </svg> creativeLabs HQ</small>
+                        </svg>
+                        creativeLabs HQ</small>
                     <div class="avatars-stack mt-2">
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/2.jpg" alt="user@email.com"></div>
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/3.jpg" alt="user@email.com"></div>
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/4.jpg" alt="user@email.com"></div>
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/5.jpg" alt="user@email.com"></div>
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/6.jpg" alt="user@email.com"></div>
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/7.jpg" alt="user@email.com"></div>
-                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/8.jpg" alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/2.jpg"
+                                                           alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/3.jpg"
+                                                           alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/4.jpg"
+                                                           alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/5.jpg"
+                                                           alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/6.jpg"
+                                                           alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/7.jpg"
+                                                           alt="user@email.com"></div>
+                        <div class="avatar avatar-xs"><img class="avatar-img" src="assets/img/avatars/8.jpg"
+                                                           alt="user@email.com"></div>
                     </div>
                 </div>
             </div>
@@ -332,42 +429,62 @@
         <div class="tab-pane p-3" id="messages" role="tabpanel">
             <div class="message">
                 <div class="py-3 pb-5 me-3 float-start">
-                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg"
+                                             alt="user@email.com"><span class="avatar-status bg-success"></span></div>
                 </div>
-                <div><small class="text-medium-emphasis">Lukasz Holeczek</small><small class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
-                <div class="text-truncate fw-bold">Lorem ipsum dolor sit amet</div><small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...</small>
+                <div><small class="text-medium-emphasis">Lukasz Holeczek</small><small
+                        class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
+                <div class="text-truncate fw-bold">Lorem ipsum dolor sit amet</div>
+                <small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt...</small>
             </div>
             <hr>
             <div class="message">
                 <div class="py-3 pb-5 me-3 float-start">
-                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg"
+                                             alt="user@email.com"><span class="avatar-status bg-success"></span></div>
                 </div>
-                <div><small class="text-medium-emphasis">Lukasz Holeczek</small><small class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
-                <div class="text-truncate fw-bold">Lorem ipsum dolor sit amet</div><small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...</small>
+                <div><small class="text-medium-emphasis">Lukasz Holeczek</small><small
+                        class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
+                <div class="text-truncate fw-bold">Lorem ipsum dolor sit amet</div>
+                <small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt...</small>
             </div>
             <hr>
             <div class="message">
                 <div class="py-3 pb-5 me-3 float-start">
-                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg"
+                                             alt="user@email.com"><span class="avatar-status bg-success"></span></div>
                 </div>
-                <div><small class="text-medium-emphasis">Lukasz Holeczek</small><small class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
-                <div class="text-truncate fw-bold">Lorem ipsum dolor sit amet</div><small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...</small>
+                <div><small class="text-medium-emphasis">Lukasz Holeczek</small><small
+                        class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
+                <div class="text-truncate fw-bold">Lorem ipsum dolor sit amet</div>
+                <small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt...</small>
             </div>
             <hr>
             <div class="message">
                 <div class="py-3 pb-5 me-3 float-start">
-                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg"
+                                             alt="user@email.com"><span class="avatar-status bg-success"></span></div>
                 </div>
-                <div><small class="text-medium-emphasis">Lukasz Holeczek</small><small class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
-                <div class="text-truncate fw-bold">Lorem ipsum dolor sit amet</div><small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...</small>
+                <div><small class="text-medium-emphasis">Lukasz Holeczek</small><small
+                        class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
+                <div class="text-truncate fw-bold">Lorem ipsum dolor sit amet</div>
+                <small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt...</small>
             </div>
             <hr>
             <div class="message">
                 <div class="py-3 pb-5 me-3 float-start">
-                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg"
+                                             alt="user@email.com"><span class="avatar-status bg-success"></span></div>
                 </div>
-                <div><small class="text-medium-emphasis">Lukasz Holeczek</small><small class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
-                <div class="text-truncate fw-bold">Lorem ipsum dolor sit amet</div><small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...</small>
+                <div><small class="text-medium-emphasis">Lukasz Holeczek</small><small
+                        class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
+                <div class="text-truncate fw-bold">Lorem ipsum dolor sit amet</div>
+                <small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt...</small>
             </div>
         </div>
         <div class="tab-pane p-3" id="settings" role="tabpanel">
@@ -376,25 +493,30 @@
                 <div class="clearfix mt-4">
                     <div class="form-check form-switch form-switch-lg">
                         <input class="form-check-input me-0" id="flexSwitchCheckDefaultLg" type="checkbox" checked="">
-                        <label class="form-check-label fw-semibold small" for="flexSwitchCheckDefaultLg">Option 1</label>
+                        <label class="form-check-label fw-semibold small" for="flexSwitchCheckDefaultLg">Option
+                            1</label>
                     </div>
                 </div>
-                <div><small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small></div>
+                <div><small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small></div>
             </div>
             <div class="aside-options">
                 <div class="clearfix mt-3">
                     <div class="form-check form-switch form-switch-lg">
                         <input class="form-check-input me-0" id="flexSwitchCheckDefaultLg" type="checkbox">
-                        <label class="form-check-label fw-semibold small" for="flexSwitchCheckDefaultLg">Option 2</label>
+                        <label class="form-check-label fw-semibold small" for="flexSwitchCheckDefaultLg">Option
+                            2</label>
                     </div>
                 </div>
-                <div><small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small></div>
+                <div><small class="text-medium-emphasis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small></div>
             </div>
             <div class="aside-options">
                 <div class="clearfix mt-3">
                     <div class="form-check form-switch form-switch-lg">
                         <input class="form-check-input me-0" id="flexSwitchCheckDefaultLg" type="checkbox">
-                        <label class="form-check-label fw-semibold small" for="flexSwitchCheckDefaultLg">Option 3</label>
+                        <label class="form-check-label fw-semibold small" for="flexSwitchCheckDefaultLg">Option
+                            3</label>
                     </div>
                 </div>
             </div>
@@ -402,7 +524,8 @@
                 <div class="clearfix mt-3">
                     <div class="form-check form-switch form-switch-lg">
                         <input class="form-check-input me-0" id="flexSwitchCheckDefaultLg" type="checkbox" checked="">
-                        <label class="form-check-label fw-semibold small" for="flexSwitchCheckDefaultLg">Option 4</label>
+                        <label class="form-check-label fw-semibold small" for="flexSwitchCheckDefaultLg">Option
+                            4</label>
                     </div>
                 </div>
             </div>
@@ -410,34 +533,45 @@
             <h6>System Utilization</h6>
             <div class="text-uppercase mb-1 mt-4"><small><b>CPU Usage</b></small></div>
             <div class="progress progress-thin">
-                <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div><small class="text-medium-emphasis">348 Processes. 1/4 Cores.</small>
+                <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25"
+                     aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <small class="text-medium-emphasis">348 Processes. 1/4 Cores.</small>
             <div class="text-uppercase mb-1 mt-2"><small><b>Memory Usage</b></small></div>
             <div class="progress progress-thin">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div><small class="text-medium-emphasis">11444GB/16384MB</small>
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70"
+                     aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <small class="text-medium-emphasis">11444GB/16384MB</small>
             <div class="text-uppercase mb-1 mt-2"><small><b>SSD 1 Usage</b></small></div>
             <div class="progress progress-thin">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-            </div><small class="text-medium-emphasis">243GB/256GB</small>
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95"
+                     aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <small class="text-medium-emphasis">243GB/256GB</small>
             <div class="text-uppercase mb-1 mt-2"><small><b>SSD 2 Usage</b></small></div>
             <div class="progress progress-thin">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-            </div><small class="text-medium-emphasis">25GB/256GB</small>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10"
+                     aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <small class="text-medium-emphasis">25GB/256GB</small>
         </div>
     </div>
 </div>
 <div class="wrapper d-flex flex-column min-vh-100 bg-light dark:bg-transparent">
     <header class="header header-sticky mb-4">
         <div class="container-fluid">
-            <button class="header-toggler px-md-0 me-md-3" type="button" onclick="coreui.Sidebar.getInstance(document.querySelector('#sidebar')).toggle()">
+            <button class="header-toggler px-md-0 me-md-3" type="button"
+                    onclick="coreui.Sidebar.getInstance(document.querySelector('#sidebar')).toggle()">
                 <svg class="icon icon-lg">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-menu"></use>
                 </svg>
-            </button><a class="header-brand d-md-none" href="#">
+            </button>
+            <a class="header-brand d-md-none" href="#">
                 <svg width="118" height="46" alt="CoreUI Logo">
                     <use xlink:href="assets/brand/coreui.svg#full"></use>
-                </svg></a>
+                </svg>
+            </a>
             <ul class="header-nav d-none d-md-flex">
                 <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Users</a></li>
@@ -445,13 +579,15 @@
             </ul>
             <nav class="header-nav ms-auto me-4">
                 <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-                    <input class="btn-check" id="btn-light-theme" type="radio" name="theme-switch" autocomplete="off" value="light" onchange="handleThemeChange(this)">
+                    <input class="btn-check" id="btn-light-theme" type="radio" name="theme-switch" autocomplete="off"
+                           value="light" onchange="handleThemeChange(this)">
                     <label class="btn btn-primary" for="btn-light-theme">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-sun"></use>
                         </svg>
                     </label>
-                    <input class="btn-check" id="btn-dark-theme" type="radio" name="theme-switch" autocomplete="off" value="dark" onchange="handleThemeChange(this)">
+                    <input class="btn-check" id="btn-dark-theme" type="radio" name="theme-switch" autocomplete="off"
+                           value="dark" onchange="handleThemeChange(this)">
                     <label class="btn btn-primary" for="btn-dark-theme">
                         <svg class="icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-moon"></use>
@@ -460,161 +596,244 @@
                 </div>
             </nav>
             <ul class="header-nav me-3">
-                <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-coreui-toggle="dropdown" href="#"
+                                                                role="button" aria-haspopup="true"
+                                                                aria-expanded="false">
                         <svg class="icon icon-lg my-1 mx-2">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
-                        </svg><span class="badge rounded-pill position-absolute top-0 end-0 bg-danger-gradient">5</span></a>
+                        </svg>
+                        <span class="badge rounded-pill position-absolute top-0 end-0 bg-danger-gradient">5</span></a>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-lg pt-0">
-                        <div class="dropdown-header bg-light"><strong>You have 5 notifications</strong></div><a class="dropdown-item" href="#">
+                        <div class="dropdown-header bg-light"><strong>You have 5 notifications</strong></div>
+                        <a class="dropdown-item" href="#">
                             <svg class="icon me-2 text-success">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user-follow"></use>
-                            </svg> New user registered</a><a class="dropdown-item" href="#">
+                            </svg>
+                            New user registered</a><a class="dropdown-item" href="#">
                             <svg class="icon me-2 text-danger">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user-unfollow"></use>
-                            </svg> User deleted</a><a class="dropdown-item" href="#">
+                            </svg>
+                            User deleted</a><a class="dropdown-item" href="#">
                             <svg class="icon me-2 text-info">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-chart"></use>
-                            </svg> Sales report is ready</a><a class="dropdown-item" href="#">
+                            </svg>
+                            Sales report is ready</a><a class="dropdown-item" href="#">
                             <svg class="icon me-2 text-success">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-basket"></use>
-                            </svg> New client</a><a class="dropdown-item" href="#">
+                            </svg>
+                            New client</a><a class="dropdown-item" href="#">
                             <svg class="icon me-2 text-warning">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
-                            </svg> Server overloaded</a>
-                        <div class="dropdown-header bg-light"><strong>Server</strong></div><a class="dropdown-item d-block" href="#">
-                            <div class="text-uppercase mb-1"><small><b>CPU Usage</b></small></div><span class="progress progress-thin">
-<div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </svg>
+                            Server overloaded</a>
+                        <div class="dropdown-header bg-light"><strong>Server</strong></div>
+                        <a class="dropdown-item d-block" href="#">
+                            <div class="text-uppercase mb-1"><small><b>CPU Usage</b></small></div>
+                            <span class="progress progress-thin">
+<div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+     aria-valuemax="100"></div>
 </span><small class="text-medium-emphasis">348 Processes. 1/4 Cores.</small>
                         </a><a class="dropdown-item d-block" href="#">
-                            <div class="text-uppercase mb-1"><small><b>Memory Usage</b></small></div><span class="progress progress-thin">
-<div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="text-uppercase mb-1"><small><b>Memory Usage</b></small></div>
+                            <span class="progress progress-thin">
+<div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+     aria-valuemax="100"></div>
 </span><small class="text-medium-emphasis">11444GB/16384MB</small>
                         </a><a class="dropdown-item d-block" href="#">
-                            <div class="text-uppercase mb-1"><small><b>SSD 1 Usage</b></small></div><span class="progress progress-thin">
-<div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="text-uppercase mb-1"><small><b>SSD 1 Usage</b></small></div>
+                            <span class="progress progress-thin">
+<div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+     aria-valuemax="100"></div>
 </span><small class="text-medium-emphasis">243GB/256GB</small>
                         </a>
                     </div>
                 </li>
-                <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-coreui-toggle="dropdown" href="#"
+                                                                role="button" aria-haspopup="true"
+                                                                aria-expanded="false">
                         <svg class="icon icon-lg my-1 mx-2">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-list-rich"></use>
-                        </svg><span class="badge rounded-pill position-absolute top-0 end-0 bg-warning-gradient">5</span></a>
+                        </svg>
+                        <span class="badge rounded-pill position-absolute top-0 end-0 bg-warning-gradient">5</span></a>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-lg pt-0">
-                        <div class="dropdown-header bg-light"><strong>You have 5 pending tasks</strong></div><a class="dropdown-item d-block" href="#">
-                            <div class="small mb-1">Upgrade NPM &amp; Bower<span class="float-end"><strong>0%</strong></span></div><span class="progress progress-thin">
-<div class="progress-bar bg-info" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="dropdown-header bg-light"><strong>You have 5 pending tasks</strong></div>
+                        <a class="dropdown-item d-block" href="#">
+                            <div class="small mb-1">Upgrade NPM &amp; Bower<span
+                                    class="float-end"><strong>0%</strong></span></div>
+                            <span class="progress progress-thin">
+<div class="progress-bar bg-info" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0"
+     aria-valuemax="100"></div>
 </span>
                         </a><a class="dropdown-item d-block" href="#">
-                            <div class="small mb-1">ReactJS Version<span class="float-end"><strong>25%</strong></span></div><span class="progress progress-thin">
-<div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="small mb-1">ReactJS Version<span class="float-end"><strong>25%</strong></span>
+                            </div>
+                            <span class="progress progress-thin">
+<div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+     aria-valuemax="100"></div>
 </span>
                         </a><a class="dropdown-item d-block" href="#">
-                            <div class="small mb-1">VueJS Version<span class="float-end"><strong>50%</strong></span></div><span class="progress progress-thin">
-<div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="small mb-1">VueJS Version<span class="float-end"><strong>50%</strong></span>
+                            </div>
+                            <span class="progress progress-thin">
+<div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+     aria-valuemax="100"></div>
 </span>
                         </a><a class="dropdown-item d-block" href="#">
-                            <div class="small mb-1">Add new layouts<span class="float-end"><strong>75%</strong></span></div><span class="progress progress-thin">
-<div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="small mb-1">Add new layouts<span class="float-end"><strong>75%</strong></span>
+                            </div>
+                            <span class="progress progress-thin">
+<div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+     aria-valuemax="100"></div>
 </span>
                         </a><a class="dropdown-item d-block" href="#">
-                            <div class="small mb-1">Angular 8 Version<span class="float-end"><strong>100%</strong></span></div><span class="progress progress-thin">
-<div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="small mb-1">Angular 8 Version<span
+                                    class="float-end"><strong>100%</strong></span></div>
+                            <span class="progress progress-thin">
+<div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+     aria-valuemax="100"></div>
 </span>
                         </a><a class="dropdown-item text-center border-top" href="#"><strong>View all tasks</strong></a>
                     </div>
                 </li>
-                <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <li class="nav-item dropdown d-md-down-none"><a class="nav-link" data-coreui-toggle="dropdown" href="#"
+                                                                role="button" aria-haspopup="true"
+                                                                aria-expanded="false">
                         <svg class="icon icon-lg my-1 mx-2">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-envelope-open"></use>
-                        </svg><span class="badge rounded-pill position-absolute top-0 end-0 bg-info-gradient">7</span></a>
+                        </svg>
+                        <span class="badge rounded-pill position-absolute top-0 end-0 bg-info-gradient">7</span></a>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-lg pt-0">
-                        <div class="dropdown-header bg-light"><strong>You have 4 messages</strong></div><a class="dropdown-item" href="#">
+                        <div class="dropdown-header bg-light"><strong>You have 4 messages</strong></div>
+                        <a class="dropdown-item" href="#">
                             <div class="message">
                                 <div class="py-3 me-3 float-start">
-                                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/7.jpg"
+                                                             alt="user@email.com"><span
+                                            class="avatar-status bg-success"></span></div>
                                 </div>
-                                <div><small class="text-medium-emphasis">John Doe</small><small class="text-medium-emphasis float-end mt-1">Just now</small></div>
-                                <div class="text-truncate font-weight-bold"><span class="text-danger">!</span> Important message</div>
-                                <div class="small text-medium-emphasis text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...</div>
+                                <div><small class="text-medium-emphasis">John Doe</small><small
+                                        class="text-medium-emphasis float-end mt-1">Just now</small></div>
+                                <div class="text-truncate font-weight-bold"><span class="text-danger">!</span> Important
+                                    message
+                                </div>
+                                <div class="small text-medium-emphasis text-truncate">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit, sed do eiusmod tempor incididunt...
+                                </div>
                             </div>
                         </a><a class="dropdown-item" href="#">
                             <div class="message">
                                 <div class="py-3 me-3 float-start">
-                                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/6.jpg" alt="user@email.com"><span class="avatar-status bg-warning"></span></div>
+                                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/6.jpg"
+                                                             alt="user@email.com"><span
+                                            class="avatar-status bg-warning"></span></div>
                                 </div>
-                                <div><small class="text-medium-emphasis">John Doe</small><small class="text-medium-emphasis float-end mt-1">5 minutes ago</small></div>
+                                <div><small class="text-medium-emphasis">John Doe</small><small
+                                        class="text-medium-emphasis float-end mt-1">5 minutes ago</small></div>
                                 <div class="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
-                                <div class="small text-medium-emphasis text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...</div>
+                                <div class="small text-medium-emphasis text-truncate">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit, sed do eiusmod tempor incididunt...
+                                </div>
                             </div>
                         </a><a class="dropdown-item" href="#">
                             <div class="message">
                                 <div class="py-3 me-3 float-start">
-                                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/5.jpg" alt="user@email.com"><span class="avatar-status bg-danger"></span></div>
+                                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/5.jpg"
+                                                             alt="user@email.com"><span
+                                            class="avatar-status bg-danger"></span></div>
                                 </div>
-                                <div><small class="text-medium-emphasis">John Doe</small><small class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
+                                <div><small class="text-medium-emphasis">John Doe</small><small
+                                        class="text-medium-emphasis float-end mt-1">1:52 PM</small></div>
                                 <div class="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
-                                <div class="small text-medium-emphasis text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...</div>
+                                <div class="small text-medium-emphasis text-truncate">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit, sed do eiusmod tempor incididunt...
+                                </div>
                             </div>
                         </a><a class="dropdown-item" href="#">
                             <div class="message">
                                 <div class="py-3 me-3 float-start">
-                                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/4.jpg" alt="user@email.com"><span class="avatar-status bg-info"></span></div>
+                                    <div class="avatar"><img class="avatar-img" src="assets/img/avatars/4.jpg"
+                                                             alt="user@email.com"><span
+                                            class="avatar-status bg-info"></span></div>
                                 </div>
-                                <div><small class="text-medium-emphasis">John Doe</small><small class="text-medium-emphasis float-end mt-1">4:03 PM</small></div>
+                                <div><small class="text-medium-emphasis">John Doe</small><small
+                                        class="text-medium-emphasis float-end mt-1">4:03 PM</small></div>
                                 <div class="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
-                                <div class="small text-medium-emphasis text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...</div>
+                                <div class="small text-medium-emphasis text-truncate">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit, sed do eiusmod tempor incididunt...
+                                </div>
                             </div>
                         </a><a class="dropdown-item text-center border-top" href="#"><strong>View all messages</strong></a>
                     </div>
                 </li>
             </ul>
             <ul class="header-nav me-4">
-                <li class="nav-item dropdown d-flex align-items-center"><a class="nav-link py-0" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                        <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/8.jpg" alt="user@email.com"></div>
+                <li class="nav-item dropdown d-flex align-items-center"><a class="nav-link py-0"
+                                                                           data-coreui-toggle="dropdown" href="#"
+                                                                           role="button" aria-haspopup="true"
+                                                                           aria-expanded="false">
+                        <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/8.jpg"
+                                                           alt="user@email.com"></div>
                     </a>
                     <div class="dropdown-menu dropdown-menu-end pt-0">
                         <div class="dropdown-header bg-light py-2">
                             <div class="fw-semibold">Account</div>
-                        </div><a class="dropdown-item" href="#">
+                        </div>
+                        <a class="dropdown-item" href="#">
                             <svg class="icon me-2">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-bell"></use>
-                            </svg> Updates<span class="badge badge-sm bg-info-gradient ms-2">42</span></a><a class="dropdown-item" href="#">
+                            </svg>
+                            Updates<span class="badge badge-sm bg-info-gradient ms-2">42</span></a><a
+                            class="dropdown-item" href="#">
                             <svg class="icon me-2">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-envelope-open"></use>
-                            </svg> Messages<span class="badge badge-sm badge-sm bg-success ms-2">42</span></a><a class="dropdown-item" href="#">
+                            </svg>
+                            Messages<span class="badge badge-sm badge-sm bg-success ms-2">42</span></a><a
+                            class="dropdown-item" href="#">
                             <svg class="icon me-2">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-task"></use>
-                            </svg> Tasks<span class="badge badge-sm bg-danger-gradient ms-2">42</span></a><a class="dropdown-item" href="#">
+                            </svg>
+                            Tasks<span class="badge badge-sm bg-danger-gradient ms-2">42</span></a><a
+                            class="dropdown-item" href="#">
                             <svg class="icon me-2">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-comment-square"></use>
-                            </svg> Comments<span class="badge badge-sm bg-warning-gradient ms-2">42</span></a>
+                            </svg>
+                            Comments<span class="badge badge-sm bg-warning-gradient ms-2">42</span></a>
                         <div class="dropdown-header bg-light py-2">
                             <div class="fw-semibold">Settings</div>
-                        </div><a class="dropdown-item" href="#">
+                        </div>
+                        <a class="dropdown-item" href="#">
                             <svg class="icon me-2">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user"></use>
-                            </svg> Profile</a><a class="dropdown-item" href="#">
+                            </svg>
+                            Profile</a><a class="dropdown-item" href="#">
                             <svg class="icon me-2">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-settings"></use>
-                            </svg> Settings</a><a class="dropdown-item" href="#">
+                            </svg>
+                            Settings</a><a class="dropdown-item" href="#">
                             <svg class="icon me-2">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-credit-card"></use>
-                            </svg> Payments<span class="badge badge-sm bg-secondary-gradient text-dark ms-2">42</span></a><a class="dropdown-item" href="#">
+                            </svg>
+                            Payments<span class="badge badge-sm bg-secondary-gradient text-dark ms-2">42</span></a><a
+                            class="dropdown-item" href="#">
                             <svg class="icon me-2">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-file"></use>
-                            </svg> Projects<span class="badge badge-sm bg-primary-gradient ms-2">42</span></a>
-                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#">
+                            </svg>
+                            Projects<span class="badge badge-sm bg-primary-gradient ms-2">42</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">
                             <svg class="icon me-2">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-lock-locked"></use>
-                            </svg> Lock Account</a><a class="dropdown-item" href="#">
+                            </svg>
+                            Lock Account</a><a class="dropdown-item" href="#">
                             <svg class="icon me-2">
                                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
-                            </svg> Logout</a>
+                            </svg>
+                            Logout</a>
                     </div>
                 </li>
             </ul>
-            <button class="header-toggler px-md-0 me-md-3" type="button" onclick="coreui.Sidebar.getInstance(document.querySelector('#aside')).show()">
+            <button class="header-toggler px-md-0 me-md-3" type="button"
+                    onclick="coreui.Sidebar.getInstance(document.querySelector('#aside')).show()">
                 <svg class="icon icon-lg">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-applications-settings"></use>
                 </svg>
@@ -646,12 +865,17 @@
                                 <div>Users</div>
                             </div>
                             <div class="dropdown">
-                                <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-transparent text-white p-0" type="button"
+                                        data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <svg class="icon">
                                         <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
                                     </svg>
                                 </button>
-                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item"
+                                                                                href="#">Action</a><a
+                                        class="dropdown-item" href="#">Another action</a><a class="dropdown-item"
+                                                                                            href="#">Something else
+                                        here</a></div>
                             </div>
                         </div>
                         <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
@@ -671,12 +895,17 @@
                                 <div>Income</div>
                             </div>
                             <div class="dropdown">
-                                <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-transparent text-white p-0" type="button"
+                                        data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <svg class="icon">
                                         <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
                                     </svg>
                                 </button>
-                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item"
+                                                                                href="#">Action</a><a
+                                        class="dropdown-item" href="#">Another action</a><a class="dropdown-item"
+                                                                                            href="#">Something else
+                                        here</a></div>
                             </div>
                         </div>
                         <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
@@ -696,12 +925,17 @@
                                 <div>Conversion Rate</div>
                             </div>
                             <div class="dropdown">
-                                <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-transparent text-white p-0" type="button"
+                                        data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <svg class="icon">
                                         <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
                                     </svg>
                                 </button>
-                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item"
+                                                                                href="#">Action</a><a
+                                        class="dropdown-item" href="#">Another action</a><a class="dropdown-item"
+                                                                                            href="#">Something else
+                                        here</a></div>
                             </div>
                         </div>
                         <div class="c-chart-wrapper mt-3" style="height:70px;">
@@ -721,12 +955,17 @@
                                 <div>Sessions</div>
                             </div>
                             <div class="dropdown">
-                                <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-transparent text-white p-0" type="button"
+                                        data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <svg class="icon">
                                         <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
                                     </svg>
                                 </button>
-                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item"
+                                                                                href="#">Action</a><a
+                                        class="dropdown-item" href="#">Another action</a><a class="dropdown-item"
+                                                                                            href="#">Something else
+                                        here</a></div>
                             </div>
                         </div>
                         <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
@@ -748,7 +987,8 @@
                             <div class="btn-group btn-group-toggle mx-3" data-coreui-toggle="buttons">
                                 <input class="btn-check" id="option1" type="radio" name="options" autocomplete="off">
                                 <label class="btn btn-outline-secondary"> Day</label>
-                                <input class="btn-check" id="option2" type="radio" name="options" autocomplete="off" checked="">
+                                <input class="btn-check" id="option2" type="radio" name="options" autocomplete="off"
+                                       checked="">
                                 <label class="btn btn-outline-secondary active"> Month</label>
                                 <input class="btn-check" id="option3" type="radio" name="options" autocomplete="off">
                                 <label class="btn btn-outline-secondary"> Year</label>
@@ -770,35 +1010,40 @@
                             <div class="text-medium-emphasis">Visits</div>
                             <div class="fw-semibold">29.703 Users (40%)</div>
                             <div class="progress progress-thin mt-2">
-                                <div class="progress-bar bg-success-gradient" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success-gradient" role="progressbar" style="width: 40%"
+                                     aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="col mb-sm-2 mb-0">
                             <div class="text-medium-emphasis">Unique</div>
                             <div class="fw-semibold">24.093 Users (20%)</div>
                             <div class="progress progress-thin mt-2">
-                                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 20%"
+                                     aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="col mb-sm-2 mb-0">
                             <div class="text-medium-emphasis">Pageviews</div>
                             <div class="fw-semibold">78.706 Views (60%)</div>
                             <div class="progress progress-thin mt-2">
-                                <div class="progress-bar bg-warning-gradient" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-warning-gradient" role="progressbar" style="width: 60%"
+                                     aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="col mb-sm-2 mb-0">
                             <div class="text-medium-emphasis">New Users</div>
                             <div class="fw-semibold">22.123 Users (80%)</div>
                             <div class="progress progress-thin mt-2">
-                                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 80%"
+                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="col mb-sm-2 mb-0">
                             <div class="text-medium-emphasis">Bounce Rate</div>
                             <div class="fw-semibold">40.15%</div>
                             <div class="progress progress-thin mt-2">
-                                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40"
+                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
@@ -889,13 +1134,15 @@
                                 <div class="col-sm-6">
                                     <div class="row">
                                         <div class="col-6">
-                                            <div class="border-start border-start-4 border-start-info px-3 mb-3"><small class="text-medium-emphasis">New Clients</small>
+                                            <div class="border-start border-start-4 border-start-info px-3 mb-3"><small
+                                                    class="text-medium-emphasis">New Clients</small>
                                                 <div class="fs-5 fw-semibold">9,123</div>
                                             </div>
                                         </div>
 
                                         <div class="col-6">
-                                            <div class="border-start border-start-4 border-start-danger px-3 mb-3"><small class="text-medium-emphasis">Recuring Clients</small>
+                                            <div class="border-start border-start-4 border-start-danger px-3 mb-3">
+                                                <small class="text-medium-emphasis">Recuring Clients</small>
                                                 <div class="fs-5 fw-semibold">22,643</div>
                                             </div>
                                         </div>
@@ -904,79 +1151,114 @@
 
                                     <hr class="mt-0">
                                     <div class="progress-group mb-4">
-                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Monday</span></div>
+                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Monday</span>
+                                        </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 34%" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-info-gradient" role="progressbar"
+                                                     style="width: 34%" aria-valuenow="34" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-danger-gradient" role="progressbar"
+                                                     style="width: 78%" aria-valuenow="78" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progress-group mb-4">
-                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Tuesday</span></div>
+                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Tuesday</span>
+                                        </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 56%" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-info-gradient" role="progressbar"
+                                                     style="width: 56%" aria-valuenow="56" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-danger-gradient" role="progressbar"
+                                                     style="width: 94%" aria-valuenow="94" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progress-group mb-4">
-                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Wednesday</span></div>
+                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Wednesday</span>
+                                        </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-info-gradient" role="progressbar"
+                                                     style="width: 12%" aria-valuenow="12" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 67%" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-danger-gradient" role="progressbar"
+                                                     style="width: 67%" aria-valuenow="67" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progress-group mb-4">
-                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Thursday</span></div>
+                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Thursday</span>
+                                        </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-info-gradient" role="progressbar"
+                                                     style="width: 43%" aria-valuenow="43" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 91%" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-danger-gradient" role="progressbar"
+                                                     style="width: 91%" aria-valuenow="91" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progress-group mb-4">
-                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Friday</span></div>
+                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Friday</span>
+                                        </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 22%" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-info-gradient" role="progressbar"
+                                                     style="width: 22%" aria-valuenow="22" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 73%" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-danger-gradient" role="progressbar"
+                                                     style="width: 73%" aria-valuenow="73" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progress-group mb-4">
-                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Saturday</span></div>
+                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Saturday</span>
+                                        </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 53%" aria-valuenow="53" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-info-gradient" role="progressbar"
+                                                     style="width: 53%" aria-valuenow="53" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-danger-gradient" role="progressbar"
+                                                     style="width: 82%" aria-valuenow="82" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progress-group mb-4">
-                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Sunday</span></div>
+                                        <div class="progress-group-prepend"><span class="text-medium-emphasis small">Sunday</span>
+                                        </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 9%" aria-valuenow="9" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-info-gradient" role="progressbar"
+                                                     style="width: 9%" aria-valuenow="9" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 69%" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-danger-gradient" role="progressbar"
+                                                     style="width: 69%" aria-valuenow="69" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -985,13 +1267,15 @@
                                 <div class="col-sm-6">
                                     <div class="row">
                                         <div class="col-6">
-                                            <div class="border-start border-start-4 border-start-warning px-3 mb-3"><small class="text-medium-emphasis">Pageviews</small>
+                                            <div class="border-start border-start-4 border-start-warning px-3 mb-3">
+                                                <small class="text-medium-emphasis">Pageviews</small>
                                                 <div class="fs-5 fw-semibold">78,623</div>
                                             </div>
                                         </div>
 
                                         <div class="col-6">
-                                            <div class="border-start border-start-4 border-start-success px-3 mb-3"><small class="text-medium-emphasis">Organic</small>
+                                            <div class="border-start border-start-4 border-start-success px-3 mb-3">
+                                                <small class="text-medium-emphasis">Organic</small>
                                                 <div class="fs-5 fw-semibold">49,123</div>
                                             </div>
                                         </div>
@@ -1009,21 +1293,26 @@
                                         </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-warning-gradient" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-warning-gradient" role="progressbar"
+                                                     style="width: 43%" aria-valuenow="43" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progress-group mb-5">
                                         <div class="progress-group-header">
                                             <svg class="icon icon-lg me-2">
-                                                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user-female"></use>
+                                                <use
+                                                    xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user-female"></use>
                                             </svg>
                                             <div>Female</div>
                                             <div class="ms-auto fw-semibold">37%</div>
                                         </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-warning-gradient" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-warning-gradient" role="progressbar"
+                                                     style="width: 43%" aria-valuenow="43" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -1038,14 +1327,17 @@
                                         </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-success-gradient" role="progressbar" style="width: 56%" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-success-gradient" role="progressbar"
+                                                     style="width: 56%" aria-valuenow="56" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progress-group">
                                         <div class="progress-group-header">
                                             <svg class="icon icon-lg me-2">
-                                                <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-facebook-f"></use>
+                                                <use
+                                                    xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-facebook-f"></use>
                                             </svg>
                                             <div>Facebook</div>
                                             <div class="ms-auto fw-semibold me-2">51.223</div>
@@ -1053,7 +1345,9 @@
                                         </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-success-gradient" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-success-gradient" role="progressbar"
+                                                     style="width: 15%" aria-valuenow="15" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -1068,14 +1362,17 @@
                                         </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-success-gradient" role="progressbar" style="width: 11%" aria-valuenow="11" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-success-gradient" role="progressbar"
+                                                     style="width: 11%" aria-valuenow="11" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progress-group">
                                         <div class="progress-group-header">
                                             <svg class="icon icon-lg me-2">
-                                                <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-linkedin"></use>
+                                                <use
+                                                    xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-linkedin"></use>
                                             </svg>
                                             <div>LinkedIn</div>
                                             <div class="ms-auto fw-semibold me-2">27.319</div>
@@ -1083,7 +1380,9 @@
                                         </div>
                                         <div class="progress-group-bars">
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-success-gradient" role="progressbar" style="width: 8%" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-success-gradient" role="progressbar"
+                                                     style="width: 8%" aria-valuenow="8" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -1111,11 +1410,16 @@
                                     <tbody>
                                     <tr class="align-middle">
                                         <td class="text-center">
-                                            <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/1.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                                            <div class="avatar avatar-md"><img class="avatar-img"
+                                                                               src="assets/img/avatars/1.jpg"
+                                                                               alt="user@email.com"><span
+                                                    class="avatar-status bg-success"></span></div>
                                         </td>
                                         <td>
                                             <div>Yiorgos Avraamu</div>
-                                            <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan 1, 2020</div>
+                                            <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan
+                                                1, 2020
+                                            </div>
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
@@ -1127,15 +1431,19 @@
                                                 <div class="float-start">
                                                     <div class="fw-semibold">50%</div>
                                                 </div>
-                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020
+                                                        - Jul 10, 2020</small></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-success-gradient" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-success-gradient" role="progressbar"
+                                                     style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
-                                                <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-mastercard"></use>
+                                                <use
+                                                    xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-mastercard"></use>
                                             </svg>
                                         </td>
                                         <td>
@@ -1144,22 +1452,33 @@
                                         </td>
                                         <td>
                                             <div class="dropdown">
-                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis"
+                                                        type="button" data-coreui-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
                                                     <svg class="icon">
-                                                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                        <use
+                                                            xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item"
+                                                                                                href="#">Info</a><a
+                                                        class="dropdown-item" href="#">Edit</a><a
+                                                        class="dropdown-item text-danger" href="#">Delete</a></div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr class="align-middle">
                                         <td class="text-center">
-                                            <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/2.jpg" alt="user@email.com"><span class="avatar-status bg-danger-gradient"></span></div>
+                                            <div class="avatar avatar-md"><img class="avatar-img"
+                                                                               src="assets/img/avatars/2.jpg"
+                                                                               alt="user@email.com"><span
+                                                    class="avatar-status bg-danger-gradient"></span></div>
                                         </td>
                                         <td>
                                             <div>Avram Tarasios</div>
-                                            <div class="small text-medium-emphasis"><span>Recurring</span> | Registered: Jan 1, 2020</div>
+                                            <div class="small text-medium-emphasis"><span>Recurring</span> | Registered:
+                                                Jan 1, 2020
+                                            </div>
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
@@ -1171,10 +1490,13 @@
                                                 <div class="float-start">
                                                     <div class="fw-semibold">10%</div>
                                                 </div>
-                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020
+                                                        - Jul 10, 2020</small></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-info-gradient" role="progressbar"
+                                                     style="width: 10%" aria-valuenow="10" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </td>
                                         <td class="text-center">
@@ -1188,22 +1510,33 @@
                                         </td>
                                         <td>
                                             <div class="dropdown">
-                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis"
+                                                        type="button" data-coreui-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
                                                     <svg class="icon">
-                                                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                        <use
+                                                            xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item"
+                                                                                                href="#">Info</a><a
+                                                        class="dropdown-item" href="#">Edit</a><a
+                                                        class="dropdown-item text-danger" href="#">Delete</a></div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr class="align-middle">
                                         <td class="text-center">
-                                            <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/3.jpg" alt="user@email.com"><span class="avatar-status bg-warning-gradient"></span></div>
+                                            <div class="avatar avatar-md"><img class="avatar-img"
+                                                                               src="assets/img/avatars/3.jpg"
+                                                                               alt="user@email.com"><span
+                                                    class="avatar-status bg-warning-gradient"></span></div>
                                         </td>
                                         <td>
                                             <div>Quintin Ed</div>
-                                            <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan 1, 2020</div>
+                                            <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan
+                                                1, 2020
+                                            </div>
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
@@ -1215,15 +1548,19 @@
                                                 <div class="float-start">
                                                     <div class="fw-semibold">74%</div>
                                                 </div>
-                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020
+                                                        - Jul 10, 2020</small></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-warning-gradient" role="progressbar" style="width: 74%" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-warning-gradient" role="progressbar"
+                                                     style="width: 74%" aria-valuenow="74" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
-                                                <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-stripe"></use>
+                                                <use
+                                                    xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-stripe"></use>
                                             </svg>
                                         </td>
                                         <td>
@@ -1232,22 +1569,33 @@
                                         </td>
                                         <td>
                                             <div class="dropdown">
-                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis"
+                                                        type="button" data-coreui-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
                                                     <svg class="icon">
-                                                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                        <use
+                                                            xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item"
+                                                                                                href="#">Info</a><a
+                                                        class="dropdown-item" href="#">Edit</a><a
+                                                        class="dropdown-item text-danger" href="#">Delete</a></div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr class="align-middle">
                                         <td class="text-center">
-                                            <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/4.jpg" alt="user@email.com"><span class="avatar-status bg-secondary-gradient"></span></div>
+                                            <div class="avatar avatar-md"><img class="avatar-img"
+                                                                               src="assets/img/avatars/4.jpg"
+                                                                               alt="user@email.com"><span
+                                                    class="avatar-status bg-secondary-gradient"></span></div>
                                         </td>
                                         <td>
                                             <div>Enéas Kwadwo</div>
-                                            <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan 1, 2020</div>
+                                            <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan
+                                                1, 2020
+                                            </div>
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
@@ -1259,15 +1607,19 @@
                                                 <div class="float-start">
                                                     <div class="fw-semibold">98%</div>
                                                 </div>
-                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020
+                                                        - Jul 10, 2020</small></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-danger-gradient" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-danger-gradient" role="progressbar"
+                                                     style="width: 98%" aria-valuenow="98" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
-                                                <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-paypal"></use>
+                                                <use
+                                                    xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-paypal"></use>
                                             </svg>
                                         </td>
                                         <td>
@@ -1276,22 +1628,33 @@
                                         </td>
                                         <td>
                                             <div class="dropdown">
-                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis"
+                                                        type="button" data-coreui-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
                                                     <svg class="icon">
-                                                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                        <use
+                                                            xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item"
+                                                                                                href="#">Info</a><a
+                                                        class="dropdown-item" href="#">Edit</a><a
+                                                        class="dropdown-item text-danger" href="#">Delete</a></div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr class="align-middle">
                                         <td class="text-center">
-                                            <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/5.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                                            <div class="avatar avatar-md"><img class="avatar-img"
+                                                                               src="assets/img/avatars/5.jpg"
+                                                                               alt="user@email.com"><span
+                                                    class="avatar-status bg-success"></span></div>
                                         </td>
                                         <td>
                                             <div>Agapetus Tadeáš</div>
-                                            <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan 1, 2020</div>
+                                            <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan
+                                                1, 2020
+                                            </div>
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
@@ -1303,15 +1666,19 @@
                                                 <div class="float-start">
                                                     <div class="fw-semibold">22%</div>
                                                 </div>
-                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020
+                                                        - Jul 10, 2020</small></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-info-gradient" role="progressbar" style="width: 22%" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-info-gradient" role="progressbar"
+                                                     style="width: 22%" aria-valuenow="22" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
-                                                <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-apple-pay"></use>
+                                                <use
+                                                    xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-apple-pay"></use>
                                             </svg>
                                         </td>
                                         <td>
@@ -1320,22 +1687,33 @@
                                         </td>
                                         <td>
                                             <div class="dropdown dropup">
-                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis"
+                                                        type="button" data-coreui-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
                                                     <svg class="icon">
-                                                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                        <use
+                                                            xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item"
+                                                                                                href="#">Info</a><a
+                                                        class="dropdown-item" href="#">Edit</a><a
+                                                        class="dropdown-item text-danger" href="#">Delete</a></div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr class="align-middle">
                                         <td class="text-center">
-                                            <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/6.jpg" alt="user@email.com"><span class="avatar-status bg-danger-gradient"></span></div>
+                                            <div class="avatar avatar-md"><img class="avatar-img"
+                                                                               src="assets/img/avatars/6.jpg"
+                                                                               alt="user@email.com"><span
+                                                    class="avatar-status bg-danger-gradient"></span></div>
                                         </td>
                                         <td>
                                             <div>Friderik Dávid</div>
-                                            <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan 1, 2020</div>
+                                            <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan
+                                                1, 2020
+                                            </div>
                                         </td>
                                         <td class="text-center">
                                             <svg class="icon icon-xl">
@@ -1347,10 +1725,13 @@
                                                 <div class="float-start">
                                                     <div class="fw-semibold">43%</div>
                                                 </div>
-                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                                <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020
+                                                        - Jul 10, 2020</small></div>
                                             </div>
                                             <div class="progress progress-thin">
-                                                <div class="progress-bar bg-success-gradient" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-success-gradient" role="progressbar"
+                                                     style="width: 43%" aria-valuenow="43" aria-valuemin="0"
+                                                     aria-valuemax="100"></div>
                                             </div>
                                         </td>
                                         <td class="text-center">
@@ -1364,12 +1745,18 @@
                                         </td>
                                         <td>
                                             <div class="dropdown dropup">
-                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <button class="btn btn-transparent p-0 dark:text-high-emphasis"
+                                                        type="button" data-coreui-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
                                                     <svg class="icon">
-                                                        <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                        <use
+                                                            xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
                                                     </svg>
                                                 </button>
-                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item"
+                                                                                                href="#">Info</a><a
+                                                        class="dropdown-item" href="#">Edit</a><a
+                                                        class="dropdown-item text-danger" href="#">Delete</a></div>
                                             </div>
                                         </td>
                                     </tr>
@@ -1395,12 +1782,12 @@
 <script>
     if (document.body.classList.contains('dark-theme')) {
         var element = document.getElementById('btn-dark-theme');
-        if (typeof(element) != 'undefined' && element != null) {
+        if (typeof (element) != 'undefined' && element != null) {
             document.getElementById('btn-dark-theme').checked = true;
         }
     } else {
         var element = document.getElementById('btn-light-theme');
-        if (typeof(element) != 'undefined' && element != null) {
+        if (typeof (element) != 'undefined' && element != null) {
             document.getElementById('btn-light-theme').checked = true;
         }
     }
